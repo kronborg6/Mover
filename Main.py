@@ -2,7 +2,7 @@ import os
 import os.path
 from datetime import datetime
 # Flytter er den mapp
-flytter = '/Users/kronborg/Desktop/codeing/python/Mover/Mover/Flytter'
+flytter = '(but den sti hvor de filler som skal flyttes er)'
 run = True
 now = datetime.now()
 year = now.strftime("%Y")
@@ -68,14 +68,15 @@ def file_system(extensions_folders, flytter, date, month, year, month_name):
 extensions_folders = {
 
 
-    'MatA': "/Users/kronborg/Desktop/codeing/python/Mover/Mover/modtager/Skole/Mat/MatAflevering",
-    'MatO': "/Users/kronborg/Desktop/codeing/python/Mover/Mover/modtager/Skole/Mat/MatOpgave",
+    '(navet på den fil som skal flyttes)': "(der hvor de filer med det navn skal hend)",
+    '(navet på den fil som skal flyttes)': "(der hvor de filer med det navn skal hend)",
+    '(navet på den fil som skal flyttes)': "(der hvor de filer med det navn skal hend)",
+    '(navet på den fil som skal flyttes)': "(der hvor de filer med det navn skal hend)",
+    '(navet på den fil som skal flyttes)': "(der hvor de filer med det navn skal hend)",
+    '(navet på den fil som skal flyttes)': "(der hvor de filer med det navn skal hend)",
 
-    'DanskA': "/Users/kronborg/Desktop/codeing/python/Mover/Mover/modtager/Skole/Dansk/DanskAflevering",
-    'DanskO': "/Users/kronborg/Desktop/codeing/python/Mover/Mover/modtager/Skole/Dansk/DanskOpgave",
 
-    'EngA': "/Users/kronborg/Desktop/codeing/python/Mover/Mover/modtager/Skole/Engelsk/EngelskAflevering",
-    'EngO': "/Users/kronborg/Desktop/codeing/python/Mover/Mover/modtager/Skole/Engelsk/EngelskOpgave",
+
 }
 month_name = {
     '1': "Jan",
